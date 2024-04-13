@@ -15,28 +15,30 @@
             <div class="form">
                 <div class="link-list">
                     <ul>
-                        <li><a href="#">usuario</a></li>
+                        <li><a href="#" class="select">usuario</a></li>
                         <li><a href="#">crie sua conta</a></li>
                     </ul>
                 </div>
                 <h1>Acesse sua conta</h1>
                 <p>Seja Bem-Vindo, Entre ou cria sua conta.</p>
-                <div class="box-input">
-                    <label for="iuser"></label>
-                    <input type="text" name="user" id="iuser" placeholder="Nome do usuario">
-                </div>
-                <div class="box-input">
-                    <label for="isenha"></label>
-                    <input type="password" name="senha" id="isenha" placeholder="Senha do usuario">
-                </div>
-                <input type="checkbox" name="check" id="icheck">
-                <label for="icheck">Aceito todas as leis de termos</label>
-                <a class="question" href="#">esqueceu a senha ?</a>
-                <input class="btn" type="submit" value="Entrar">
-                <div class="redes">
-                    <a href="#"><i class='bx bxl-facebook-square'></i></a>
-                    <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-                </div>
+                <form action="#" method="post" autocomplete="off">
+                    <div class="box-input">
+                        <label for="iuser"></label>
+                        <input type="text" name="user" id="iuser" placeholder="Nome do usuario" autocomplete="off" required>
+                    </div>
+                    <div class="box-input">
+                        <label for="isenha"></label>
+                        <input type="password" name="senha" id="isenha" placeholder="Senha do usuario" autocomplete="off" required>
+                    </div>
+                    <input type="checkbox" name="check" id="icheck">
+                    <label for="icheck">Aceito todas as leis de termos</label>
+                    <a class="question" href="#">esqueceu a senha ?</a>
+                    <input class="btn" type="submit" value="Entrar">
+                    <div class="redes">
+                        <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    </div>
+                </form>
             </div>
             
         </section>
